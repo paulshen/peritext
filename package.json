@@ -11,7 +11,8 @@
         "check-prettier": "prettier --check ./index.html *.json ./src/**/* ./test/**/*",
         "test": "ts-mocha ./test/micromerge.ts -p ./test/tsconfig.json",
         "fuzz": "ts-mocha ./test/fuzz.ts -p ./test/tsconfig.json",
-        "lint": "eslint ./src/**/* ./test/**/*"
+        "lint": "eslint ./src/**/* ./test/**/*",
+	"vite": "vite"
     },
     "author": "",
     "license": "MIT",
@@ -48,7 +49,8 @@
         "prosemirror-view": "1.18.7",
         "shuffle-seed": "^1.1.6",
         "ts-mocha": "^8.0.0",
-        "uuid": "^3.4.0"
+        "uuid": "^3.4.0",
+        "vite": "^2.8.6"
     },
     "browserslist": [
         "last 1 Chrome version"
